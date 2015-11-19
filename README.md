@@ -30,3 +30,13 @@ Each subclass can supply the primitive operations as is most appropriate for it.
 
 The template method contains the knowledge of how to combine the primitive operations into a more complex operation.
 
+### Context:
+- An algorithm is applicable for multiple types.
+- The algorithm can be broken down into primitive operations. The primitive operations can be different for each type.
+- The order of the primitive operations doesn't depend on the type.
+
+### Solution:
+- Define a superclass that has a method for the algorithm and abstract methods for the primitive operations.
+- Implement the algorithm to call the primitive operations in the appropriate order.
+- Do not define the primitive operations in the superclass, or define them to have appropriate default behavior.
+- Each subclass defines the primitive operations but not the algorithm.
