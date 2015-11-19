@@ -17,3 +17,4 @@ The method can be supplied in the SelectableShape class:
       translate(-2, -2);
     }
     
+![](/SceneEditorHighlighted.png)
