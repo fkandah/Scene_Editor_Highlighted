@@ -17,4 +17,16 @@ The method can be supplied in the SelectableShape class:
       translate(-2, -2);
     }
     
-![](/SceneEditorHighlighted.png)
+
+<img src="/SceneEditorHighlighted.png" width="548">
+
+## The TEMPLATE METHOD Pattern
+
+The drawSelection method is an example of the TEMPLATE METHOD pattern. 
+
+In this pattern, a superclass defines a method that calls primitive operations that a subclass needs to supply.
+
+Each subclass can supply the primitive operations as is most appropriate for it.
+
+The template method contains the knowledge of how to combine the primitive operations into a more complex operation.
+
